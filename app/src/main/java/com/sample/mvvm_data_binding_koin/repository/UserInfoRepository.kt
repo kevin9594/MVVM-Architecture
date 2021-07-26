@@ -17,7 +17,7 @@ class UserInfoRepository() {
 //        }
 //
 //    suspend fun getUserInfo() {
-//        val userInfoResponse = OneBoSportApi.userService.getUserInfo()
+//        val userInfoResponse = TestApi.userService.getUserInfo()
 //
 //        if (userInfoResponse.isSuccessful) {
 //            userInfoResponse.body()?.let {
@@ -50,11 +50,6 @@ class UserInfoRepository() {
 //            userName = userInfoData.userName,
 //            userType = userInfoData.userType,
 //            email = userInfoData.email,
-//            qq = userInfoData.qq,
 //            phone = userInfoData.phone,
-//            wechat = userInfoData.wechat,
-//            updatePayPw = userInfoData.updatePayPw,
-//            setted = userInfoData.setted,
-//            userRebateList = userInfoData.userRebateList
 //        )
 }
